@@ -1,0 +1,152 @@
+export const SITE_CONFIG = {
+  media: [
+    { type: "image", src: "/assets/1.svg", alt: "Memory one" },
+    { type: "image", src: "/assets/2.svg", alt: "Memory two" },
+    { type: "video", src: "/assets/3.mp4", alt: "Memory three" },
+    { type: "image", src: "/assets/1.svg", alt: "Memory four" },
+    { type: "image", src: "/assets/2.svg", alt: "Memory five" },
+  ],
+  animation: {
+    slideshowIntervalMs: 3200,
+    slideshowTransitionMs: 5_000,
+  },
+  hearts: {
+    emojis: ["💛", "💘", "💖", "💕", "😍"],
+    maxHearts: 200,
+    spawn: {
+      countMin: 8,
+      countMax: 16,
+      spread: 90,
+      sizeMin: 14,
+      sizeMax: 26,
+      durationMin: 1200,
+      durationMax: 1900,
+      riseMin: 120,
+      riseMax: 220,
+      rotateMin: -35,
+      rotateMax: 35,
+      offsetX: 24,
+      offsetY: 18,
+    },
+    burst: {
+      count: 42,
+      spread: 200,
+      sizeMin: 18,
+      sizeMax: 38,
+    },
+  },
+  bento: {
+    tiles: [
+      { id: "hero", className: "bento-tile tile-hero" },
+      { id: "tall", className: "bento-tile tile-tall" },
+      { id: "wide", className: "bento-tile tile-wide" },
+      { id: "small-1", className: "bento-tile tile-small" },
+      { id: "small-2", className: "bento-tile tile-small" },
+      { id: "small-3", className: "bento-tile tile-small" },
+    ],
+    videoTileIndexes: [1, 5],
+  },
+  theme: {
+    colors: {
+      bg: "#0b0e14",
+      card: "rgba(12, 16, 24, 0.75)",
+      cardStrong: "rgba(13, 17, 27, 0.92)",
+      text: "#f7f4f2",
+      muted: "#c7c1bc",
+      accent: "#f8a3c4",
+      accentStrong: "#77b7ff",
+      outline: "rgba(255, 255, 255, 0.12)",
+      glow: "rgba(248, 163, 196, 0.25)",
+      overlayTop: "rgba(19, 24, 36, 0.35)",
+      overlayBottom: "rgba(7, 9, 15, 0.75)",
+      bentoStart: "#0e111a",
+      bentoEnd: "#101724",
+    },
+    fonts: {
+      body: '"Poppins", system-ui, -apple-system, "Segoe UI", sans-serif',
+      heading: '"Playwrite US Trad", "Playwrite", "Georgia", cursive',
+    },
+  },
+};
+
+export const COPY = {
+  introText: "Loading something for my favorite person… 💛",
+  sequenceLines: [
+    "Hey love 💛",
+    "Today makes it **4 months** of us.",
+    "Thank you for your kindness, your patience, and your love.",
+    "I’m grateful I get to do life with you… even in small ways.",
+    "So I have a question…",
+  ],
+  keepGoingLabel: "Keep going",
+  valentine: {
+    title: "Will you be my Valentine? 💘",
+    yesLabel: "Yes 💘",
+    noLabel: "No 😅",
+    noMessages: [
+      "Ah ah 😭 you sure? Try again joor 💖",
+      "Okay… but I packed love for you o 😅",
+      "This ‘no’ doesn’t match your vibe 😌",
+      "Stop forming strong woman nau 😭💘",
+      "My heart is doing backflip… say yes? 🥺",
+      "You dey do shakara 😄",
+      "No pressure. But I hope it’s a yes 😘",
+    ],
+  },
+  success: {
+    title: "Yayyy! 😍",
+    subtitle: "See you on Feb 14 😉",
+    receiptLabel: "View 4-month receipt",
+    openWhenLabel: "Open when…",
+  },
+  receipt: {
+    title: "Relationship Receipt 🧾",
+    subtitle: "4 months of us",
+    items: [
+      { label: "Gists shared", value: "∞" },
+      { label: "Support given", value: "Plenty" },
+      { label: "Laughs", value: "A lot" },
+      { label: "Patience", value: "Premium" },
+      { label: "Hugs (owed)", value: "Uncountable" },
+      { label: "Kisses (owed)", value: "Uncountable" },
+    ],
+    totalLabel: "Total",
+    totalValue: "Priceless 💛",
+    footer: "Thank you for choosing me. 😚",
+    backLabel: "Back",
+    openWhenLabel: "Open when…",
+  },
+  openWhen: {
+    title: "Open When… 💌",
+    subtitle: "Pick a little envelope made for you.",
+    items: [
+      {
+        label: "Open when you miss me 🥹",
+        note: "Close your eyes and remember one small moment that made you smile. I'm right there with you.",
+      },
+      {
+        label: "Open when you’re stressed 🤧",
+        note: "Breathe in for four, hold for four, out for four. I’m cheering for you, always.",
+      },
+      {
+        label: "Open when you want to smile 😄",
+        note: "Think of the cutest thing we’ve laughed about. I’m saving more for you.",
+      },
+      {
+        label: "Open when you need motivation 💪",
+        note: "You’re stronger than you feel right now. I believe in you and your big beautiful future.",
+      },
+      {
+        label: "Open when it’s late at night 🌙",
+        note: "Pretend this is a forehead kiss. Rest well, love. I’ll see you in the morning.",
+      },
+      {
+        label: "Open when you feel like you're not enough 🥺",
+        note: "You are enough. You are perfect. You are loved. You are wanted. You are needed. You are valued. You are important. You are worthy.",
+      },
+    ],
+    backLabel: "Back",
+    voiceNoteLabel: "Play voice note (soon)",
+    closeLabel: "Close",
+  },
+};

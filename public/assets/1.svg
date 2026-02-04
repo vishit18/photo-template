@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8a3c4"/>
+      <stop offset="100%" stop-color="#77b7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g1)"/>
+  <g fill="#ffffff" opacity="0.75" font-family="Poppins, Arial, sans-serif" font-size="48">
+    <text x="60" y="120">Add your photo</text>
+    <text x="60" y="190">Replace /public/assets/1.svg</text>
+  </g>
+</svg>

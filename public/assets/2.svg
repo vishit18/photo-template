@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="g2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d2130"/>
+      <stop offset="100%" stop-color="#3a4564"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g2)"/>
+  <g fill="#f7f4f2" opacity="0.85" font-family="Poppins, Arial, sans-serif" font-size="46">
+    <text x="60" y="120">Your memory here</text>
+    <text x="60" y="190">Replace /public/assets/2.svg</text>
+  </g>
+</svg>
