@@ -1,11 +1,15 @@
+import img1 from "./assets/1.webp";
+import img2 from "./assets/2.webp";
+import img3 from "./assets/3.avif";
+
 export const SITE_CONFIG = {
   media: [
-    { type: "image", src: "/assets/1.svg", alt: "Memory one" },
-    { type: "image", src: "/assets/2.svg", alt: "Memory two" },
-    { type: "video", src: "/assets/3.mp4", alt: "Memory three" },
-    { type: "image", src: "/assets/1.svg", alt: "Memory four" },
-    { type: "image", src: "/assets/2.svg", alt: "Memory five" },
-  ],
+  { type: "image", src: img1, alt: "Memory one" },
+  { type: "image", src: img2, alt: "Memory two" },
+  { type: "image", src: img3, alt: "Memory three" },
+  { type: "image", src: img1, alt: "Memory four" },
+  { type: "image", src: img2, alt: "Memory five" },
+],
   animation: {
     slideshowIntervalMs: 3200,
     slideshowTransitionMs: 5_000,
